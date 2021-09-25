@@ -205,16 +205,16 @@ public interface DepartmentService {
 ```
 
 ## web servlet类，处理请求
- :one: 增加员工 [Employee_add_servlet.java](http://) <br>
- :two: 查询员工 [employee_select.java](http://)<br>
- :three: 修改员工信息，不包含头像，提交到数据库 [Employee_alter.java](http://)<br>
- :four: 批量删除员工 [Employee_conditionDel.java](http://)<br>
- :five: 选择部门查询 [Employee_conditionSelect.java](http://)<br>
- :six: 删除员工 [employee_del.java](http://)<br>
- :seven: 获取修改后的员工信息 [Employee_edit.java](http://)<br>
- :eight: 在增加员工之间处理 [Employee_toadd_servlet.java](http://)<br>
- :nine: 获取要添加头像的员工id，设置session [Employee_uploadfile.java](http://)<br>
- :keycap_ten: 处理图片名称，上传到服务器和数据库，删除原文件 [FileServlet.java](http://)<br>
+ :one: 增加员工 [Employee_add_servlet.java](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/blob/master/servlet/src/com/servlet/web/Employee_add_servlet.java) <br>
+ :two: 查询员工 [employee_select.java](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/blob/master/servlet/src/com/servlet/web/employee_select.java)<br>
+ :three: 修改员工信息，不包含头像，提交到数据库 [Employee_alter.java](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/blob/master/servlet/src/com/servlet/web/Employee_alter.java)<br>
+ :four: 批量删除员工 [Employee_conditionDel.java](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/blob/master/servlet/src/com/servlet/web/Employee_conditionDel.java)<br>
+ :five: 选择部门查询 [Employee_conditionSelect.java](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/blob/master/servlet/src/com/servlet/web/Employee_conditionSelect.java)<br>
+ :six: 删除员工 [employee_del.java](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/blob/master/servlet/src/com/servlet/web/employee_del.java)<br>
+ :seven: 获取修改后的员工信息 [Employee_edit.java](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/blob/master/servlet/src/com/servlet/web/Employee_edit.java)<br>
+ :eight: 在增加员工之间处理 [Employee_toadd_servlet.java](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/blob/master/servlet/src/com/servlet/web/Employee_toadd_servlet.java)<br>
+ :nine: 获取要添加头像的员工id，设置session [Employee_uploadfile.java](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/blob/master/servlet/src/com/servlet/web/Employee_uploadfile.java)<br>
+ :keycap_ten: 处理图片名称，上传到服务器和数据库，删除原文件 [FileServlet.java](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/blob/master/servlet/src/com/servlet/web/FileServlet.java)<br>
  11. 测试EL表达式 [elSvl.java](http://)
 
 ## web目录
