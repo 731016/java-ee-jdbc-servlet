@@ -7,6 +7,9 @@
 1. 使用了servlet把业务处理代码放在后台处理，删除了不必要的jsp页面
 2. 使用El表达式展示数据，不用在前台获取一遍session数据
 
+v1.0 [输入链接说明](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/tree/master/servlet-v1.0)
+v2.0 [输入链接说明](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/tree/master/servlet-v2.0)
+
 ## 项目展示效果
 <hr>
 
