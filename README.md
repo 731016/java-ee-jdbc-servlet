@@ -10,9 +10,13 @@
 1. 使用了servlet把业务处理代码放在后台处理，删除了不必要的jsp页面
 2. 使用El表达式展示数据，不用在前台获取一遍session数据
 
+2021/9/27 更新
+1. 新增分页功能，包括所有用户和部门用户分页；使用PageUtils分页工具类
+
 ## 源码
 [v1.0 - servlet-v1.0](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/tree/master/servlet-v1.0)<br>
 [v2.0 - servlet-v2.0](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/tree/master/servlet-v2.0)
+[v3.0 - servlet-v3.0]()
 
 ## 项目展示效果
 <hr>
