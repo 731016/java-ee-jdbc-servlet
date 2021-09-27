@@ -50,7 +50,7 @@
 ![头像修改成功](https://images.gitee.com/uploads/images/2021/0925/104818_14be8fb0_8254421.png "头像修改成功.png")
 
 ### 分页
-
+![分页](https://images.gitee.com/uploads/images/2021/0927/184948_5c3e6c92_8254421.png "分页.png")
 
 ## 数据库设计
 <ins>MySQL数据库<ins>
