@@ -49,6 +49,9 @@
 ![双击头像添加头像](https://images.gitee.com/uploads/images/2021/0925/104751_7fbc6baa_8254421.png "双击头像添加头像.png")
 ![头像修改成功](https://images.gitee.com/uploads/images/2021/0925/104818_14be8fb0_8254421.png "头像修改成功.png")
 
+### 分页
+
+
 ## 数据库设计
 <ins>MySQL数据库<ins>
 ```text
