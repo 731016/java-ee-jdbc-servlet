@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+
 /*
 批量删除员工
  */
@@ -20,6 +21,10 @@ public class Employee_conditionDel extends HttpServlet {
         request.setCharacterEncoding("utf-8");
         String[] eids = request.getParameterValues("eid");
         EmployeeService service = new EmployeeServiceImpl();
+        if (eids == null) {
+            response.sendRedirect("/employee/employee_select");
+            return;
+        }
         Integer[] eidInt = new Integer[eids.length];
         for (int i = 0; i < eids.length; i++) {
             eidInt[i] = Integer.valueOf(eids[i]);
