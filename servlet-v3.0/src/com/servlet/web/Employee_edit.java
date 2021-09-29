@@ -16,7 +16,17 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 /*
-获取修改后的员工信息
+    获取修改后的员工信息
+
+    请求方式：get
+    请求地址：/employee/employee_edit
+    请求参数：eid=员工id
+
+    设置session
+        "departmentList",departments 部门信息
+        "employeeOne",employee 员工信息
+
+    重定向：/employee/employee_edit.jsp
  */
 @WebServlet(name = "Employee_edit",urlPatterns = "/employee/employee_edit")
 public class Employee_edit extends HttpServlet {
