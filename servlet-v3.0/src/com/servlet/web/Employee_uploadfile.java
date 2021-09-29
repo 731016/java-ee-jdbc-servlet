@@ -13,6 +13,15 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 /*
     获取要添加头像的员工id，设置session
+
+    请求方式：get
+    请求地址：/uploadfile
+    请求参数：eidFile=员工id
+
+    设置session
+        "originFile",originFile 员工数据库的头像文件名称
+
+    重定向：/index.jsp 添加头像页面
  */
 @WebServlet(name = "Employee_uploadfile",urlPatterns = "/uploadfile")
 public class Employee_uploadfile extends HttpServlet {
