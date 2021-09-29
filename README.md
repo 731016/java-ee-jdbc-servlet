@@ -3,8 +3,8 @@
 ## 介绍
 简易的员工管理系统，包括信息的增删改查，新增员工图像
 
-前端：HTML，CSS，JavaScript，jQuery，EL表达式,jsp
-后端:JavaEE，servlet(创建servlet，使用get和post请求处理数据;使用Request,Response,session存储数据)，JDBC(德鲁伊数据库连接池，使用QueryRunner处理数据)
+前端：`HTML`，`CSS`，`JavaScript`，`jQuery`，`EL表达式`,`jsp` <br>
+后端:`JavaEE`，`servlet`(创建servlet，使用get和post请求处理数据;使用Request,Response,session存储数据)，`JDBC`(德鲁伊数据库连接池，使用QueryRunner处理数据)<br>
 
 和上一次系统[bootstrap+JavaEE+JDBC+JSP的信息管理系统](https://gitee.com/LovelyHzz/Info-management-system)相比
 1. 使用了servlet把业务处理代码放在后台处理，删除了不必要的jsp页面
