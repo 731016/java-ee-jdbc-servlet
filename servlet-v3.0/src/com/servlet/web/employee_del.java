@@ -11,7 +11,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 /*
-删除员工
+    删除员工
+
+    请求方式：get
+    请求地址：/employee_del
+    请求参数：eid=员工id
+
+    重定向：/employee/employee_select
  */
 @WebServlet(name = "employee_del", urlPatterns = "/employee_del")
 public class employee_del extends HttpServlet {
