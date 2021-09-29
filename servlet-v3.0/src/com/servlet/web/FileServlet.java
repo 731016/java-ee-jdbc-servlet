@@ -19,7 +19,13 @@ import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
 /*
-处理图片名称，上传到服务器和数据库，删除原文件
+    处理图片名称，上传到服务器和数据库，删除原文件
+    
+    请求方式：post
+    请求地址：/file_upload
+    请求参数：enctype="multipart/form-data"
+
+    重定向：/employee/employee_select
  */
 @WebServlet(name = "FileServlet", urlPatterns = "/file_upload")
 public class FileServlet extends HttpServlet {
