@@ -12,7 +12,13 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /*
-批量删除员工
+    批量删除员工
+    
+    请求方式：post
+    请求地址：/employee/employee_conditionDel
+    参数：eid 员工姓名
+
+    重定向：/employee/employee_select
  */
 @WebServlet(name = "Employee_conditionDel", urlPatterns = "/employee/employee_conditionDel")
 public class Employee_conditionDel extends HttpServlet {
@@ -21,6 +27,7 @@ public class Employee_conditionDel extends HttpServlet {
         request.setCharacterEncoding("utf-8");
         String[] eids = request.getParameterValues("eid");
         EmployeeService service = new EmployeeServiceImpl();
+        // 没有选择任何用户，直接回到用户列表
         if (eids == null) {
             response.sendRedirect("/employee/employee_select");
             return;
