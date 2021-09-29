@@ -19,7 +19,19 @@ import java.io.IOException;
 import java.util.List;
 
 /*
-查询员工
+    查询员工
+
+    请求方式：get
+    请求地址：/employee/employee_select
+    请求参数：i=当前页码
+
+    session
+        清除部门编号depid，获取输入框对应的部门id
+
+        设置总页面pages和当前页码i 关键！上一页和下一页
+            员工信息employeeList和部门信息departmentList
+
+    重定向：/employee/employee_select.jsp
  */
 @WebServlet(name = "employee_select", urlPatterns = "/employee/employee_select")
 public class employee_select extends HttpServlet {
