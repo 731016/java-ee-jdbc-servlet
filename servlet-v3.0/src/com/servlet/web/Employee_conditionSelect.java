@@ -20,10 +20,16 @@ import java.util.List;
 /*
     选择部门查询
     
+    （1）根据部门查询员工信息模块
     请求方式：post
     请求地址：/employee/employee_conditionSelect
     请求参数：
         pidSelect - 被选中的部门名称
+
+    （2）go模块
+    请求方式：get
+    请求地址：/employee/employee_conditionSelect?i=页码
+    请求参数：i=页码
 
     设置session：
         "pages",pageUtils.getPages() 总页数
