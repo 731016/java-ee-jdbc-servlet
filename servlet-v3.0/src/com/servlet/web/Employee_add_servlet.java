@@ -16,7 +16,19 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 /*
-增加员工
+    增加员工
+
+    请求方式：post
+    请求地址：/employee/employee_add
+    请求参数：
+        ename 员工姓名
+        sex 性别
+        pid 部门id
+        salary 工资
+        dizhi 地址
+        job 职位
+
+        重定向：/employee/employee_select
  */
 @WebServlet(name = "Employee_add_servlet", urlPatterns = "/employee/employee_add")
 public class Employee_add_servlet extends HttpServlet {
