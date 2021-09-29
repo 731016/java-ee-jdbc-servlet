@@ -13,7 +13,21 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 /*
-修改员工信息，不包含头像，提交到数据库
+    修改员工信息，不包含头像，提交到数据库
+
+    请求方式：post
+    请求地址：/employee/employee_alter
+    请求参数：
+        ename 员工姓名
+        sex 性别
+        pid 部门id
+        salary 工资
+        dizhi 地址
+        job 职位
+
+    重定向：/employee/employee_edit?eid="+eid
+    eid 员工id
+    get请求
  */
 @WebServlet(name = "Employee_alter",urlPatterns = "/employee/employee_alter")
 public class Employee_alter extends HttpServlet {
