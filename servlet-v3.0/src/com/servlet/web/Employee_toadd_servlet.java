@@ -14,7 +14,14 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 /*
-在增加员工之间处理
+    在增加员工之间处理
+
+    请求方式：post
+    请求地址：/employee/employee_toadd
+    请求参数：无
+
+    保存所有部门名称到session，("departmentList", departmentList)[类型：List<Department>]
+    重定向：/employee/employee_add.jsp
  */
 @WebServlet(name = "Employee_toadd_servlet",urlPatterns = "/employee/employee_toadd")
 public class Employee_toadd_servlet extends HttpServlet {
