@@ -18,7 +18,21 @@ import java.util.Enumeration;
 import java.util.List;
 
 /*
-选择部门查询
+    选择部门查询
+    
+    请求方式：post
+    请求地址：/employee/employee_conditionSelect
+    请求参数：
+        pidSelect - 被选中的部门名称
+
+    设置session：
+        "pages",pageUtils.getPages() 总页数
+        "i",pageUtils.getIndex() 当前页码
+        "employeeList", employeeCondList 查询的信息[List<Employee>]
+        "depid", employeeCondList.get(0).getDepartment().getPid() 部门id
+    重定向：
+    /employee/employee_select  pidSelect== -1 所有部门
+    /employee/employee_select.jsp
  */
 @WebServlet(name = "Employee_conditionSelect", urlPatterns = "/employee/employee_conditionSelect")
 public class Employee_conditionSelect extends HttpServlet {
