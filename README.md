@@ -13,10 +13,15 @@
 2021/9/27 更新
 1. 新增分页功能，包括所有用户和部门用户分页；使用PageUtils分页工具类
 
+2021/10/8 更新
+1. dao层和service层部分采用单例模式（懒汉式-不支持多线程）
+2. service层部门采用工厂模式
+
 ## 源码
 [v1.0 - servlet-v1.0](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/tree/master/servlet-v1.0)<br>
 [v2.0 - servlet-v2.0](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/tree/master/servlet-v2.0)<br>
 [v3.0 - servlet-v3.0](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/tree/master/servlet-v3.0)<br>
+[v4.0 - servlet-v4.0](https://gitee.com/LovelyHzz/java-ee-jdbc-servlet/tree/master/servlet-v4.0)<br>
 
 ## 项目展示效果
 <hr>
